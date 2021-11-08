@@ -30,7 +30,7 @@ The easiest way to get started is using Visual Studio 2019+ or with `dotnet run`
 
 ## Database Migrations
 
-1- Set CodersLinkAssignment.WebApi as startup project.
+1- Set ```CodersLinkAssignment.WebApi``` project as startUp project.
 
 2- Set a valid connection string in appsettings.json.
 
