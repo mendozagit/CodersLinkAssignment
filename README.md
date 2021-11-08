@@ -36,7 +36,7 @@ The easiest way to get started is using Visual Studio 2019+ or with `dotnet run`
 
 3- Manually delete the entire Migrations directory
 
-4- Set CodersLinkAssignment.Persistence as default project in console and run the following commands
+4- Set ```CodersLinkAssignment.Persistence``` project as default project in console and run the following commands
 
 ```bash
 Add-Migration Initial
