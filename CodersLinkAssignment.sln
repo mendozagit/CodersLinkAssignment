@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4A53E460-C900-409D-9E19-A0FCB05CC758}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{97CF9841-BE72-42BE-A41E-A33B69E1D43A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{76570E9C-9B24-415C-9514-F4F006B47C67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{72B463C7-AE9D-4F5E-868F-ACBD1D5070BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0341BD42-8D86-4E79-8EE8-908AF52384EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4E7F15DC-D79E-409A-BEA6-FA3ED2B63F49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{34D54A9E-4306-4726-B7CB-599A0E898CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersLinkAssignment.Aplication", "CodersLinkAssignment.Aplication\CodersLinkAssignment.Aplication.csproj", "{8FF33071-F262-4EBD-BCDB-77596A3EE80B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersLinkAssignment.Domain", "CodersLinkAssignment.Domain\CodersLinkAssignment.Domain.csproj", "{C94762F7-54F9-442C-858B-7DC282F7FD69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersLinkAssignment.Persistence", "CodersLinkAssignment.Persistence\CodersLinkAssignment.Persistence.csproj", "{E038207E-AD95-4689-A5F9-423AD9DAA3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersLinkAssignment.Shared", "CodersLinkAssignment.Shared\CodersLinkAssignment.Shared.csproj", "{479579C9-284A-4BD8-B050-61427AF2D4A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersLinkAssignment.WebApi", "CodersLinkAssignment.WebApi\CodersLinkAssignment.WebApi.csproj", "{E01BB9C5-B105-4665-946F-9DAA5A12F40D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodersLinkAssignment.Tests", "CodersLinkAssignment.Tests\CodersLinkAssignment.Tests.csproj", "{9E3DBCB4-D69F-4CFE-82E4-F39AD8C4E8E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FF33071-F262-4EBD-BCDB-77596A3EE80B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF33071-F262-4EBD-BCDB-77596A3EE80B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF33071-F262-4EBD-BCDB-77596A3EE80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF33071-F262-4EBD-BCDB-77596A3EE80B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94762F7-54F9-442C-858B-7DC282F7FD69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94762F7-54F9-442C-858B-7DC282F7FD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94762F7-54F9-442C-858B-7DC282F7FD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94762F7-54F9-442C-858B-7DC282F7FD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E038207E-AD95-4689-A5F9-423AD9DAA3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E038207E-AD95-4689-A5F9-423AD9DAA3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E038207E-AD95-4689-A5F9-423AD9DAA3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E038207E-AD95-4689-A5F9-423AD9DAA3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{479579C9-284A-4BD8-B050-61427AF2D4A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{479579C9-284A-4BD8-B050-61427AF2D4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{479579C9-284A-4BD8-B050-61427AF2D4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{479579C9-284A-4BD8-B050-61427AF2D4A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E01BB9C5-B105-4665-946F-9DAA5A12F40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E01BB9C5-B105-4665-946F-9DAA5A12F40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E01BB9C5-B105-4665-946F-9DAA5A12F40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E01BB9C5-B105-4665-946F-9DAA5A12F40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3DBCB4-D69F-4CFE-82E4-F39AD8C4E8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3DBCB4-D69F-4CFE-82E4-F39AD8C4E8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3DBCB4-D69F-4CFE-82E4-F39AD8C4E8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3DBCB4-D69F-4CFE-82E4-F39AD8C4E8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76570E9C-9B24-415C-9514-F4F006B47C67} = {4A53E460-C900-409D-9E19-A0FCB05CC758}
+		{72B463C7-AE9D-4F5E-868F-ACBD1D5070BA} = {4A53E460-C900-409D-9E19-A0FCB05CC758}
+		{0341BD42-8D86-4E79-8EE8-908AF52384EF} = {76570E9C-9B24-415C-9514-F4F006B47C67}
+		{4E7F15DC-D79E-409A-BEA6-FA3ED2B63F49} = {76570E9C-9B24-415C-9514-F4F006B47C67}
+		{34D54A9E-4306-4726-B7CB-599A0E898CAE} = {76570E9C-9B24-415C-9514-F4F006B47C67}
+		{8FF33071-F262-4EBD-BCDB-77596A3EE80B} = {0341BD42-8D86-4E79-8EE8-908AF52384EF}
+		{C94762F7-54F9-442C-858B-7DC282F7FD69} = {0341BD42-8D86-4E79-8EE8-908AF52384EF}
+		{E038207E-AD95-4689-A5F9-423AD9DAA3E7} = {4E7F15DC-D79E-409A-BEA6-FA3ED2B63F49}
+		{479579C9-284A-4BD8-B050-61427AF2D4A3} = {4E7F15DC-D79E-409A-BEA6-FA3ED2B63F49}
+		{E01BB9C5-B105-4665-946F-9DAA5A12F40D} = {34D54A9E-4306-4726-B7CB-599A0E898CAE}
+		{9E3DBCB4-D69F-4CFE-82E4-F39AD8C4E8E8} = {97CF9841-BE72-42BE-A41E-A33B69E1D43A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C79EE231-5996-42AD-BEC5-81B260A80154}
+	EndGlobalSection
+EndGlobal
