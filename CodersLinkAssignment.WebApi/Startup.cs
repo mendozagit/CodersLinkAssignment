@@ -1,16 +1,13 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using CodersLinkAssignment.Aplication;
+using CodersLinkAssignment.Persistence;
+using CodersLinkAssignment.Shared;
+using CodersLinkAssignment.WebApi.Extensions;
 
 namespace CodersLinkAssignment.WebApi
 {
@@ -28,6 +25,22 @@ namespace CodersLinkAssignment.WebApi
         {
 
             services.AddControllers();
+
+
+            // Add Aplication layer services
+            services.AddCodersLinkAssignmentAplicationServices();
+
+            // Add Persistence layer services
+            services.AddCodersLinkAssignmentPersistenceServices(Configuration);
+
+            // Add Shared layer services
+            services.AddCodersLinkAssignmentSharedServices(Configuration);
+
+            // Add WebApi layer services
+            services.AddCodersLinkAssignmentWebApiServices();
+
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CodersLinkAssignment.WebApi", Version = "v1" });
