@@ -21,7 +21,7 @@ This project is an experiment trying to create a solution template with for Code
 
 
 - Frontend
-  - Simple CRUD and nothing more (under construction)
+  - Angular Simple CRUD and nothing more (under construction)
 
 
 ## Getting started
