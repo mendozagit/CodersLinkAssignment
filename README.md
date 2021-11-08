@@ -17,6 +17,7 @@ This project is an experiment trying to create a solution template with for Code
   - MediatR Pipeline Validation Behaviour
   - Standard Format Response Data
   - Standard exceptions
+  - Paging
 
 
 - Frontend
@@ -44,4 +45,9 @@ Add-Migration Initial
 Update-Database
 ```
 
-## Fronted under construction 🏗️🚧🏗️
+
+5- Go to ```CodersLinkAssignment.Aplication.Features.Customers.Commands.Seeder```, there is dummy data.json, there ready to copy and paste over it 
+```/api/v{version}/Customer/{seed}``` endpoint, this will be useful for testing filters and paging. 
+
+
+## Frontend is under construction 🏗️🚧🏗️
