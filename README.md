@@ -18,6 +18,7 @@ This project is an experiment trying to create a solution template with for Code
   -Standard Format Response Data
   -Standard exceptions
 
+
 - Frontend
   - Simple CRUD and nothing more (under construction)
 
