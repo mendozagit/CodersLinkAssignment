@@ -12,11 +12,11 @@ This project is an experiment trying to create a solution template with for Code
   - CQRS with MediatR
   - Validations with FluentValidation
   - AutoMapper
-  - Entity Framework Core (But Open to extension, e.g. InMemoryRepositories)
+  - Entity Framework Core (but ist open to extension, e.g. InMemoryRepositories)
   - Swagger
-  -MediatR Pipeline Validation Behaviour
-  -Standard Format Response Data
-  -Standard exceptions
+  - MediatR Pipeline Validation Behaviour
+  - Standard Format Response Data
+  - Standard exceptions
 
 
 - Frontend
