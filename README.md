@@ -39,11 +39,8 @@ The easiest way to get started is using Visual Studio 2019+ or with `dotnet run`
 
 ````bash
 Add-Migration Initial
-```
 
-````bash
 Update-Database
 ```
-
 
 ## Fronted under construction 🏗️🚧🏗️
