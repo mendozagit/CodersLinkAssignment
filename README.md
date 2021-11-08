@@ -37,9 +37,10 @@ The easiest way to get started is using Visual Studio 2019+ or with `dotnet run`
 
 4- Set CodersLinkAssignment.Persistence as default project in console and run the following commands
 
-````bash
+```bash
 Add-Migration Initial
-
+```
+```bash
 Update-Database
 ```
 
