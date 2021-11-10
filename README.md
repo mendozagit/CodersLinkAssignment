@@ -7,7 +7,7 @@ This project is an experiment trying to create a solution template with for Code
 ## Technologies and patterns used
 
 - Backend
-  - Minimal API with .NET 5
+  - Basic API with .NET 5
   - Clean Architecture
   - CQRS with MediatR
   - Validations with FluentValidation
