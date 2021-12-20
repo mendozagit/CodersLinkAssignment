@@ -1,6 +1,6 @@
-﻿# CodersLinkAssignment
+﻿# Basic Clean Architecture Web Api
 
-This project is an experiment trying to create a solution template with for CodersLink Assignment requirements.
+This project is an experiment trying to create a solution template with for Clean Architecture requirements.
 
 
 
